@@ -1,0 +1,141 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+</head>
+<body>
+  <!--<script>
+    let userName = prompt("Who is this?", '')
+    if (userName.toUpperCase() == 'ADMIN')
+    {
+      let pwd = prompt("Please enter password", '')
+      if (pwd == null || pwd == '')
+      {
+        pwd = prompt("Please enter password", '')
+      }
+      else
+      {
+        if (pwd == 'password')
+          alert("You are logged in!!!");
+        else
+          pwd = prompt("Wrong password", '')
+      }
+    }
+    else
+    {
+      alert("Only admins are allowed to use the application!!!")
+    }
+
+  </script>-->
+
+  <script>
+
+    ////Rewrite the below into if ?
+    ////if (a + b < 10) {
+    ////  result = 'Below';
+    ////} else {
+    ////  result = 'Over';
+    ////}
+
+    //let a = prompt("Input first number", 0);
+    //let b = prompt("Input second number", 0);
+        
+    //let resultVar = a + b < 10 ? 'Below' : 'Over';
+    //alert(resultVar);
+
+
+
+
+
+    ////Rewrite if..else using multiple ternary operators '?'.
+    ////let message;
+    ////if (login == 'Employee') {
+    ////  message = 'Hello';
+    ////} else if (login == 'Director') {
+    ////  message = 'Greetings';
+    ////} else if (login == '') {
+    ////  message = 'No login';
+    ////} else {
+    ////  message = '';
+    ////}
+    //let empType = prompt("Enter your employment type", '');
+    //let message = '';
+    //if (empType == 'employee' ? message = 'Hello' : 
+    //    empType == 'director' ? message = 'Greetings' :
+    //    message = 'No login.');
+    //alert(message);
+
+
+
+
+
+    //function sayHi() {   // (1) create
+    //  alert("Hello");
+    //}
+    //let func = sayHi;    // (2) copy
+    //func();
+
+
+
+
+    //let sayHi2 = function () {
+    //  alert("Hi2");
+    //}
+    //let func2 = sayHi2; 
+    //func2();
+    //sayHi2();
+
+    //let sayHi3 = () => {
+    //  alert("Hi3");
+    //}
+    //sayHi3();
+
+
+    //let user = {
+    //  fName: "Arun",
+    //  lName: "Thomas",
+    //  age: 36,
+    //}
+    //alert(user.fName);
+
+
+    /* let empSal = {
+      Arun: 100,
+      xyz: 50,
+      zzz: 25,
+    }
+
+    let totSal = 0;
+    for (let sal in empSal) {
+      totSal += empSal[sal];
+    }
+    alert(totSal);
+
+    */
+  
+    
+  </script>
+  
+  <button id="btnExecuteAjax">Call Ajax</button>
+  <button id="btnLoadCustomer"> Load Customer from JSON by Ajax call</button>
+  <button id="btnLoadCustomers"> Load Customer from JSON by Ajax call</button>
+
+  <div id="container">
+    <form id="myForm">
+      <tr></tr>
+      <tr></tr>
+      <tr>
+        <input type="number" id="txtNoOfJokes" value="1">
+        <button id="btnLoadJokes">Load Jokes</button>
+      </tr>
+      
+    </form>
+  </div>
+</body>
+<script src="Ajax_Codes.js"> </script>
+<script src="Customer_JSON_Ajax.js"></script>
+<script src="Customers_JSON_Ajax.js"></script>
+<script src="External_JSON_Ajax.js"></script>
+</html>
